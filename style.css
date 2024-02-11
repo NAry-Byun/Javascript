@@ -1,0 +1,102 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMjdkYzQ4ZGUtMGM2NC00YWJhLWIyZTYtNWIyZDVjYWE1MzNiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg);
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .main-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.315);
+  }
+  
+  
+  .border-line {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .button-style {
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+  .pre-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+  }
+  .title {
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .sub-title {
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  
+  .main-img {
+    width: 20vw;
+    height: 20vh
+  }
+  
+  .red-text {
+    color:darkred
+  }
+  
+  .form-control {
+    height: 80px;
+  
+    font-size: vw;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 48rem) {
+    .pre-title {
+      font-size: 10vw;
+    }
+    .title {
+      font-size: 12vw;
+    }
+    .sub-title {
+      font-size: 11vw;
+    }
+    .form-control {
+      font-size: 8vw;
+      max-width: 500px;
+      margin-right: 0px;
+    }
+    .main-img {
+      width: 40vw;
+    }
+    .button-reset {
+      font-size: 5vw;
+      width: 80px;
+      height: 60px;
+    }
+  }

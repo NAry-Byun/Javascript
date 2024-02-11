@@ -1,44 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My First Web Page</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my website.</p>
-</body>
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>My Profile</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Write a brief description about yourself here.</p>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Email: your-email@example.com</p>
-            <p>Phone: 123-456-7890</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2022 My Profile</p>
-    </footer>
+    <div class="container">
+        <h1 class="pre-title">잘생긴 웡카네</h1>
+        <h1 class="title">초콜렛 맞추기</h1>
+        <h1 class="sub-title"><span class="red-text">달콤한</span> UP & Down</h1>
+        <div id="result-area">
+            <img src="https://media.tenor.com/HerUG5xM-XUAAAAi/tap-dance-willy-wonka.gif" class="main-img">
+            <h1 class="result-text">한번도 안먹은 놈은 있어도 한번만 먹은놈은 없다</h1>
+        </div>
+        <h2 id="chance-area">남은 기회:</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <input type="number" id="user-input" class="form-control mb-10" placeholder="1부터 100까지 숫자를 입력" />
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success mb-2 button-style" id="play-button">Go!!</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-secondary button-reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
